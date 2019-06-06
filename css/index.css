@@ -169,6 +169,7 @@ img {
   margin: 0 auto;
 }
 nav {
+  padding: 20px;
   color: greenyellow;
 }
 nav a {
@@ -214,6 +215,10 @@ nav a {
   padding-right: 1%;
   padding-left: 0;
 }
+.home .content-welcome {
+  padding-top: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
@@ -230,7 +235,4 @@ nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-.container {
-  background: red;
 }
