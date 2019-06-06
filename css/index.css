@@ -169,7 +169,7 @@ img {
   margin: 0 auto;
 }
 .top-box {
-  margin: 0 auto 30px;
+  margin: 0 auto 0;
   width: 800px;
 }
 nav {
@@ -177,7 +177,6 @@ nav {
   border-bottom: 2px dashed #C0C0C0;
 }
 nav a {
-  display: inline-block;
   text-decoration: none;
   color: black;
   font-size: 1.5em;
@@ -229,6 +228,7 @@ nav h1 {
 }
 .home .content-welcome {
   padding-top: 30px;
+  padding-bottom: 10px;
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-welcome img {
