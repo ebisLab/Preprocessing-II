@@ -169,8 +169,10 @@ img {
   margin: 0 auto;
 }
 nav {
+  text-align: center;
   padding: 20px;
   color: greenyellow;
+  border-bottom: 2px dashed #C0C0C0;
 }
 nav a {
   color: red;
@@ -217,8 +219,11 @@ nav a {
 }
 .home .content-welcome {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
   border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-welcome img {
+  border-radius: 10px;
+  margin: 0 auto 30px;
 }
 .home .content-destination {
   width: 75%;
