@@ -217,6 +217,7 @@ nav a {
 }
 .home .content-welcome {
   padding-top: 30px;
+  border-top: 2px dashed #C0C0C0;
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-destination {
