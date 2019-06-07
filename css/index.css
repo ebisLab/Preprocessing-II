@@ -294,9 +294,20 @@ nav h1 {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 600px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .home .content-pick .destination {
+    width: 80%;
+  }
 }
 .home .content-pick .destination .btn {
   background: #17A2B8;
@@ -307,4 +318,10 @@ nav h1 {
   font-size: 2rem;
   border-radius: 10px;
   padding-top: 7px;
+}
+@media (max-width: 600px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+    padding: 13px;
+  }
 }
