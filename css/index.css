@@ -213,9 +213,9 @@ nav h1 {
   font-size: 1.6rem;
   padding: 20px;
 }
-@media mobile {
+@media (max-width: 600px) {
   .home {
-    background: yellowgreen;
+    padding: 20px;
   }
 }
 .home .content-section {
@@ -228,16 +228,36 @@ nav h1 {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 600px) {
+  .home .content-section .text-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
+@media (max-width: 600px) {
+  .home .content-section .img-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 600px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -259,6 +279,11 @@ nav h1 {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+}
+@media (max-width: 600px) {
+  .home .content-destination {
+    width: 100%;
+  }
 }
 .home .content-destination img {
   border-radius: 10px;
