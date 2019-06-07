@@ -172,7 +172,7 @@ img {
   margin: 0 auto 0;
   width: 800px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .top-box {
     max-width: 100%;
     text-align: center;
@@ -189,7 +189,7 @@ nav a {
   padding: 20px;
   float: right;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   nav a {
     float: none;
   }
@@ -197,7 +197,7 @@ nav a {
 nav h1 {
   display: inline;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   nav h1 {
     display: block;
   }
@@ -213,7 +213,7 @@ nav h1 {
   font-size: 1.6rem;
   padding: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home {
     padding: 20px;
   }
@@ -228,7 +228,7 @@ nav h1 {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
   }
@@ -237,7 +237,7 @@ nav h1 {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
   }
@@ -245,7 +245,7 @@ nav h1 {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-section .img-content img {
     width: 100%;
   }
@@ -254,7 +254,7 @@ nav h1 {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
@@ -280,7 +280,7 @@ nav h1 {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-destination {
     width: 100%;
   }
@@ -294,7 +294,7 @@ nav h1 {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
@@ -304,7 +304,7 @@ nav h1 {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-pick .destination {
     width: 80%;
   }
@@ -319,7 +319,7 @@ nav h1 {
   border-radius: 10px;
   padding-top: 7px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .home .content-pick .destination .btn {
     width: 100%;
     padding: 13px;
