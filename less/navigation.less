@@ -1,1 +1,39 @@
 // Navigation Styles here
+
+
+.top-box{
+    margin: 0 auto 0;
+    width: 800px;
+    @media @mobile {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+nav{
+
+    padding: 20px;
+    border-bottom: 2px dashed @navigation-border;
+    
+    a{
+    
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        padding: 20px;
+        float: right;
+        @media @mobile {
+            float: inherit;
+            padding: 10px;
+        }
+    }
+
+    h1{
+        display: inline;
+        @media @mobile {
+            display: block;
+        }
+    }
+
+
+}

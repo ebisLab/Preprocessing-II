@@ -1,1 +1,22 @@
 // Mixins in here
+// @padding: 20px;
+// @radius: 10px;
+// @background: blue;
+// @color: yellow;
+// @border: 2px solid red;
+
+.btn(@padding, @radius, @background, @color, @border) 
+{
+
+    padding: @padding; 
+    border-radius: @radius; 
+    background: @background; 
+    color: @color; 
+    border: @border;
+       
+    }
+
+    .width-height(@width, @height){
+        width: @width;
+        height: @height;
+    }
