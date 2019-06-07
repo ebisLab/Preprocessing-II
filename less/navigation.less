@@ -4,7 +4,10 @@
 .top-box{
     margin: 0 auto 0;
     width: 800px;
-
+    @media @mobile {
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
 nav{
@@ -19,10 +22,16 @@ nav{
         font-size: 1.5em;
         padding: 20px;
         float: right;
+        @media @mobile {
+            float: none;
+        }
     }
 
     h1{
         display: inline;
+        @media @mobile {
+            display: block;
+        }
     }
 
 
